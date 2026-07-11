@@ -1,0 +1,10 @@
+#arc_toolbar_report .video-toolbar-left-item:has(.bilibili-exact-toolbar-value) {
+  width: auto !important;
+  min-width: 92px;
+}
+
+#arc_toolbar_report .video-toolbar-left-item:has(.bilibili-exact-toolbar-value) .video-toolbar-item-text {
+  flex-shrink: 0;
+  overflow: visible !important;
+  text-overflow: clip !important;
+}
